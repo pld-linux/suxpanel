@@ -1,8 +1,8 @@
 #
 #TODO	FHS
 #
-Summary:	suxpanel
-Summary(pl):	suxpanel
+Summary:	suxpanel - MacOS-style panel
+Summary(pl):	suxpanel - panel w stylu MacOS
 Name:		suxpanel
 Version:	0.3
 Release:	0.1
@@ -11,6 +11,7 @@ Group:		-
 Source0:	http://www.linuxmag.com.br/~leandro/suxpanel/%{name}-%{version}.tar.bz2
 # Source0-md5:	1fa0bc9d8ea0f782826f4f93da6406c3
 URL:		http://www.linuxmag.com.br/~leandro/suxpanel/
+BuildRequires:	FHS-fixes
 BuildRequires:	libwnck-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -21,8 +22,13 @@ extend. Since it's still in early development stages, it's not
 intended for non-developers (however, if configured properly, it can
 be used even by your cat).
 
-#%description -l pl
-#suxpanel
+%description -l pl
+SuxPanel to ca³kowicie przepisany wcze¶niejszy projekt "MacOS Style
+Panel". Jest teraz ³atwiejszy do utrzymania (jako ¿e wszystko jest
+wtyczk±) i rozszerzania. Poniewa¿ jest nadal we wczesnym stadium
+rozwoju, nie jest przeznaczony do u¿ywania przez nieprogramistów
+(jednak po odpowiedniej konfiguracji móg³by byæ u¿ywany nawet przez
+kota).
 
 %prep
 %setup -q
@@ -50,4 +56,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_datadir}/%{name}
 %{_datadir}/%{name}/pixmaps
 %dir %{_datadir}/%{name}/plugins
-%attr(755,root,root) %dir %{_datadir}/%{name}/plugins/*.so
+%attr(755,root,root) %{_datadir}/%{name}/plugins/*.so
