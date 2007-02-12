@@ -2,7 +2,7 @@
 #TODO	FHS
 #
 Summary:	suxpanel - MacOS-style panel
-Summary(pl.UTF-8):   suxpanel - panel w stylu MacOS
+Summary(pl.UTF-8):	suxpanel - panel w stylu MacOS
 Name:		suxpanel
 Version:	0.3
 Release:	0.1
