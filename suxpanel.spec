@@ -2,7 +2,7 @@
 #TODO	FHS
 #
 Summary:	suxpanel - MacOS-style panel
-Summary(pl):	suxpanel - panel w stylu MacOS
+Summary(pl.UTF-8):   suxpanel - panel w stylu MacOS
 Name:		suxpanel
 Version:	0.3
 Release:	0.1
@@ -22,12 +22,12 @@ extend. Since it's still in early development stages, it's not
 intended for non-developers (however, if configured properly, it can
 be used even by your cat).
 
-%description -l pl
-SuxPanel to ca≥kowicie przepisany wcze∂niejszy projekt "MacOS Style
-Panel". Jest teraz ≥atwiejszy do utrzymania (jako øe wszystko jest
-wtyczk±) i rozszerzania. Poniewaø jest nadal we wczesnym stadium
-rozwoju, nie jest przeznaczony do uøywania przez nieprogramistÛw
-(jednak po odpowiedniej konfiguracji mÛg≥by byÊ uøywany nawet przez
+%description -l pl.UTF-8
+SuxPanel to ca≈Çkowicie przepisany wcze≈õniejszy projekt "MacOS Style
+Panel". Jest teraz ≈Çatwiejszy do utrzymania (jako ≈ºe wszystko jest
+wtyczkƒÖ) i rozszerzania. Poniewa≈º jest nadal we wczesnym stadium
+rozwoju, nie jest przeznaczony do u≈ºywania przez nieprogramist√≥w
+(jednak po odpowiedniej konfiguracji m√≥g≈Çby byƒá u≈ºywany nawet przez
 kota).
 
 %prep
